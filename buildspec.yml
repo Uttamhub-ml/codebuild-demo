@@ -26,6 +26,7 @@ phases:
             - grep -Fq "AWS Certified DevOps Engineer" index.html
             - echo "Test was successful"
             - echo "proceed with next steps"
+            - echo "Hi Welcome to AWS $name"
     post_build:
         commands:
             - echo "We are currently on post_build phase"
